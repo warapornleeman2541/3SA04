@@ -12,11 +12,11 @@ const availableZipItems = [
 const ZipItem = ({ place, code, navigation}) => (
  <TouchableHight
    onpress={() => navigation.navigate("Weather", { zipcode: code})}
-
-    <view>
+>
+    <View>
         <Text>{place}</Text>
         <Text>{code}</Text>
-    </view>
+    </View>
     </TouchableHight>
 );
 const _keyExtractor = (item) => item.code;

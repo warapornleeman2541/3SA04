@@ -9,7 +9,7 @@ export default function Weather(props) {
   const [ForecastInfo, setForecastInfo] = useState({
       main: 'main',
       description: 'description',
-      temp: 0;
+      temp: 0,
       city: "",
   })
 
