@@ -64,6 +64,6 @@ const styles = StyleSheet.create({
   },
   medium: {
       fontSize: 25,
-      color: 'red',
+      color: 'green',
   }
 });
